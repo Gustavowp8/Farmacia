@@ -1,0 +1,37 @@
+#bodyDois{
+    background: #dde0ee;
+}
+
+#gTamanho{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#gTamanho h2{
+    text-align: center;
+}
+
+#gsobre img{
+    width: 100%;
+}
+
+#gsobre{
+
+}
+
+#gtexto h4{
+    text-align: center;
+}
+
+#gIri{
+    background: #ffffff;
+    color: #444444;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#areaLink{
+    text-align: center;
+}
