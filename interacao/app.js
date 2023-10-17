@@ -25,3 +25,16 @@ var img = window.document.getElementById('imagem');
         //document.body.style.background = '#444444'
     }
 }
+
+/*Janelas popup*/
+
+function avisogeral(){
+    alert("Indisponível este site é apenas uma amostra!")
+}
+
+function chamawhast(){
+    whats.style.display='block'
+}
+function fechawhast(){
+    whats.style.display='none'
+}
