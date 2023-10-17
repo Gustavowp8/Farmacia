@@ -56,3 +56,9 @@ function mostraEndereco(){
 function fechaEndereco(){
     endereco.style.display='none'
 }
+
+/* Entregas */
+
+function irEntregas(){
+    location = 'entregas.html'
+}

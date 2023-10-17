@@ -110,7 +110,7 @@ a:hover{
 
 #infoDois > div{
     padding: 10px;
-    border: 1px solid #444444;
+    border: 1px solid #ffffff;
     text-align: center;
     align-items: center;
 }
@@ -236,4 +236,55 @@ a:hover{
     border: 1px solid #de3448;
     border-radius: 10px;
     cursor: pointer;
+}
+
+/* ############## */
+
+.infoSite{
+    padding: 10px;
+}
+
+/* Dicas */
+
+#dicas{
+    padding: 10px;
+}
+
+#dicaS img{
+    width: 100px;
+}
+
+#dicaS{
+    background: #ffffff;
+    border: 1px solid #444444;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    max-width: 900px;
+    padding: 5px;
+}
+
+#dicaTxt{
+    margin-left: 10px;
+}
+
+/* @@@@ */
+
+#footer{
+    background: #de3448;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+#footer button{
+    font-size: 15pt;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
 }
