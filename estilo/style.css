@@ -1,0 +1,64 @@
+body, ul{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    background: #272c60;
+}
+
+#logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#header{
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #de3448;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+#menu a{
+    display: block;
+    padding: .5rem;
+}
+
+/*##########*/
+
+#sdia{
+    color: #444444; 
+}
+
+.areaSite{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#boasVindas{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#pMsg{
+    margin-left: 15px;
+}
+
+#pMsg p{
+    margin-top: -10px;
+}
