@@ -163,3 +163,77 @@ a:hover{
     border: 1px solid #ffffff;
     cursor: pointer;
 }
+
+/*Janela instagram*/
+
+#insta{
+    display: none;
+    background: rgba(0, 0, 0, 0.903);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#instaDois{
+    background: #ffffff;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: auto;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#instaTres{
+    text-align: center;
+}
+
+/* Endereço */
+
+#endereco{
+    display: none;
+    background: rgba(0, 0, 0, 0.903);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#enderecoDois{
+    background: #ffffff;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: auto;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#enderecoTres{
+    text-align: center;
+}
+
+#enderecoTres p{
+    text-align: left;
+}
+
+#enderecoDois button{
+    width: 100%;
+    padding: .3rem;
+    background: #de3448;
+    color: #ffffff;
+    border: 1px solid #de3448;
+    border-radius: 10px;
+    cursor: pointer;
+}

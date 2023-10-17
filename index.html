@@ -62,12 +62,12 @@
                     <p><b>WhatsApp</b></p>
                 </div>
 
-                <div>
+                <div onclick="chamainsta()">
                     <img src="icones/instagram.png">
                     <p><b>Instagram</b></p>
                 </div>
 
-                <div>
+                <div onclick="mostraEndereco()">
                     <img src="icones/mapa.png">
                     <p><b>Endereço</b></p>
                 </div>
@@ -109,6 +109,59 @@
         </div>
 
     </div>
+
+    <!--Janela instagram -->
+
+    <div id="insta">
+
+        <div id="instaDois">
+
+            <div id="instaTres">
+
+                <img src="icones/instagram.png">
+                <h3>Ver nosso Instagram</h3>
+                <p>
+                    Você está saindo do nosso site e indo para Instagram deseja continuar ?
+                </p>
+
+                <div id="rota">
+                    <a href="#" onclick="avisogeral()">SIM</a> <br>
+                    <button onclick="fechaInsta()">NÃO</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Janela endereço -->
+
+    <div id="endereco">
+
+        <div id="enderecoDois">
+
+            <div id="enderecoTres">
+
+                <img id="mapaEnd" src="icones/mapa.png">
+
+                <h3>Nossa loja fica localizada em:</h3>
+                <p><b>Cidade: </b>Brasilia - DF</p>
+                <p><b>Bairro: </b>Santa Maria</p>
+                <p><b>Logradouro: </b>QR 00 N° 000</p>
+                <p><b>CEP: </b>00000-000</p>
+                <p>Loja aberta todos os dias da 00:00 até as 23:00</p>
+                <p>Telefone: (61) 0000-0000</p>
+
+            </div>
+            <button onclick="fechaEndereco()">FECHAR</button>
+        </div>
+
+    </div>
+
+    <!-- Janela entragas -->
+
+    
 
     <!-- Janelas popup tem que ser feito aqui dentro acima-->
 

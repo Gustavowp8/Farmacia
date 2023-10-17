@@ -38,3 +38,21 @@ function chamawhast(){
 function fechawhast(){
     whats.style.display='none'
 }
+
+/*janela instagram*/
+function chamainsta(){
+    insta.style.display='block'
+}
+function fechaInsta(){
+    insta.style.display='none'
+}
+
+/*Janela endereço*/
+
+function mostraEndereco(){
+    endereco.style.display='block'
+}
+
+function fechaEndereco(){
+    endereco.style.display='none'
+}
